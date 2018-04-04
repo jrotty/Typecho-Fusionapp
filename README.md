@@ -18,6 +18,8 @@
 
 4，支出原生评论
 
+5，加载了jq，方便fusion app使用js调试
+
 # 成品demo
 
 https://qqdie.com/areyouok/qqdie1.3.5.apk
