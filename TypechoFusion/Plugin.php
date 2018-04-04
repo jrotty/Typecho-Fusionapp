@@ -5,7 +5,7 @@
  * @package TypechoFusion
  * @author Jrotty
  * @version 1.0.0
- * @link http://qqdie.com
+ * @link https://qqdie.com/archives/typechofusionapp-plugin.html
  */
 class TypechoFusion_Plugin implements Typecho_Plugin_Interface
 {
