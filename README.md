@@ -20,7 +20,7 @@
 
 5，加载了jq，方便fusion app使用js调试
 
-6，评论头像使用loli源，且对于qq邮箱用户显示qq头像
+6，评论头像使用gravatar.loli.net源，且对于qq邮箱用户显示qq头像
 
 # 成品demo
 
