@@ -9,7 +9,7 @@ function img_postthemb($thiz){
         $content = $thiz->content;
         $ret = preg_match("/\<img.*?src\=\"(.*?)\"[^>]*>/i", $content, $thumbUrl);
         if($ret === 1 && count($thumbUrl) == 2){
-                return $thumbUrl[1];
+                return $thumbUrl[1].'!Themia';
         }else{
 $rand = mt_rand(1,500); 
 $random = $thiz->widget('Widget_Options')->pluginUrl. '/TypechoFusion/themes/img/' . $rand . '.jpg';
