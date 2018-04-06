@@ -13,7 +13,8 @@
 
     <!-- 引入样式 -->
     <link rel="stylesheet" href="<?php $this->options->pluginUrl('TypechoFusion/themes/ydui.css'); ?>?v201803311736">
-<?php echo $this->options->plugin('TypechoFusion')->header; ?><script type="text/javascript">
+<?php echo $this->options->plugin('TypechoFusion')->header; ?>
+<script type="text/javascript">
 (function () {
     window.TypechoComment = {
         dom : function (id) {
