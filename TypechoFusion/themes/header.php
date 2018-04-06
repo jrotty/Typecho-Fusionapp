@@ -14,7 +14,9 @@
     <!-- 引入样式 -->
     <link rel="stylesheet" href="<?php $this->options->pluginUrl('TypechoFusion/themes/ydui.css'); ?>?v201803311736">
 <?php echo $this->options->plugin('TypechoFusion')->header; ?>
-<script type="text/javascript">
+<?php $all = Typecho_Plugin::export();?><?php if (array_key_exists('Meting', $all['activated'])) : ?><?php $this->header(); ?>
+  <?php else: ?>
+  <script type="text/javascript">
 (function () {
     window.TypechoComment = {
         dom : function (id) {
@@ -73,6 +75,6 @@ if (null != textarea && 'text' == textarea.name) {
     };
 
 })();
-</script>
+</script><?php endif; ?>
 </head>
 <body>
