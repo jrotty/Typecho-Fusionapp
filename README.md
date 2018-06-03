@@ -22,8 +22,6 @@
 
 6，评论头像使用gravatar.loli.net源，且对于qq邮箱用户显示qq头像
 
-7，避免pc端插件影响，去除了前端插件接口，不过针对Meting插件开放
-
 # 成品demo
 
 https://qqdie.com/areyouok/qqdie1.3.5.apk
