@@ -19,7 +19,7 @@ offset: 999,
 ias.extension(new IASNoneLeftExtension({text: '<div class="trigger-next" style="text-align: center; cursor: pointer;">加载没了！</div>',}));   
 
 </script><?php endif; ?>
-<?php echo $this->options->plugin('TypechoFusion')->footer; ?><?php $all = Typecho_Plugin::export();?><?php if (array_key_exists('Meting', $all['activated'])) : ?><?php $this->footer(); ?>
-<?php endif; ?>
+<?php echo $this->options->plugin('TypechoFusion')->footer; ?>
+<?php $this->footer(); ?>
 </body>
 </html>
