@@ -256,3 +256,6 @@ margin-top: .2em;
 #comments p a {
     color: red;
 }
+.w .postlist{
+    border: 0px;
+}
