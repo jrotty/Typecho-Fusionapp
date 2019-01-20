@@ -5,7 +5,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;$this->need('header.php');
 <article class="container">
 
   <!-- Postlist --> <?php while($this->next()): ?>
-    <div class="row postlist">
+    <div class="row postlist sypl">
  
 <a href="<?php $this->permalink() ?><?php if (isset($_GET['theme'])): ?>?theme=<?php echo $_GET['theme'];?><?php endif; ?>"><div class="tu"><img class="tutu" src="<?php echo img_postthemb($this);?>"></div></a>
 <div class="neirong">
