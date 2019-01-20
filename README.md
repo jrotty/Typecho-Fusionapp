@@ -26,5 +26,5 @@
 
 # 成品demo
 
-https://qqdie.com/areyouok/qqdie1.3.5.apk
+https://www.lanzous.com/i2x37te
 
