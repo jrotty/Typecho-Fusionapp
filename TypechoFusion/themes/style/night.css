@@ -1,0 +1,45 @@
+html,.ias-trigger,.comment-list li.comment-level-odd,.comment-list li.comment-by-author,input,.comment-list li.comment-level-even
+{
+background-color: #434343;
+}
+article code,#comments p a,a, a:hover {
+  color: #00b338;}
+.postlist{
+    background: #434343;
+    border: 1px solid #000000;
+}
+h1,h2,h3,h4,h5,h6 {
+    letter-spacing: -.04em;
+    line-height: 1.45em;
+    color: #e4e4e4;
+}
+body,.suolue,.ias-trigger a,.comment-author{ color: #e4e4e4;}
+textarea {
+    background: #434343;
+    color: #fff;
+}
+.time {
+  color: #e40000;
+}
+article pre,.ias-trigger,.comment-list li,input[type="text"], input[type="email"], input[type="url"], input[type="password"], textarea,button.submit{
+    border: 1px solid #000000;
+}
+input{color: #fff;}
+button.submit
+{
+background-color: #000000;
+}
+img{
+    filter: brightness(90%);
+}
+article code {
+  background-color: #1d1d1d;}
+article table tr:nth-child(2n) {
+    background: #4a4a4a;
+}
+.page-navigator a:hover {
+  background: #000;}
+.page-navigator .current a {
+    color: #fff;
+    background: #000;
+}
