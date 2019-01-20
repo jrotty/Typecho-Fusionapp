@@ -14,7 +14,7 @@
 <!-- 引入样式 -->
 <link rel="stylesheet" href="<?php $this->options->pluginUrl('TypechoFusion/themes/ydui.css'); ?>?v201901191443">
 <?php if (isset($_GET['theme'])): ?>
-<link rel="stylesheet" href="<?php $theme = $_GET['theme'];$this->options->pluginUrl('TypechoFusion/themes/'.$theme); ?>.css?v201901191443">
+<link rel="stylesheet" href="<?php $theme = $_GET['theme'];$this->options->pluginUrl('TypechoFusion/themes/style/'.$theme); ?>.css?v201901191443">
 <?php endif; ?>
 <?php echo $this->options->plugin('TypechoFusion')->header; ?><?php $this->header(); ?>
 </head>
