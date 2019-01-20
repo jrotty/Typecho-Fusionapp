@@ -2,27 +2,20 @@
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;$this->need('header.php');
 ?>
 
-
-
-
-
 <article class="container">
 
   <!-- Postlist --> <?php while($this->next()): ?>
     <div class="row postlist">
  
-      <a href="<?php $this->permalink() ?>"><div class="tu"><img class="tutu" src="<?php echo img_postthemb($this);?>"></div></a>
+<a href="<?php $this->permalink() ?><?php if (isset($_GET['theme'])): ?>?theme=<?php echo $_GET['theme'];?><?php endif; ?>"><div class="tu"><img class="tutu" src="<?php echo img_postthemb($this);?>"></div></a>
 <div class="neirong">
   
-    <a href="<?php $this->permalink() ?>"><h3 class="wa"><?php $this->title(); ?></h3></a>
+<a href="<?php $this->permalink() ?><?php if (isset($_GET['theme'])): ?>?theme=<?php echo $_GET['theme'];?><?php endif; ?>"><h3 class="wa"><?php $this->title(); ?></h3></a>
 
 <span class="suolue" style="font-size: 14px;"><?php $this->excerpt(60, '...'); ?></span>
   
     </div>
-    <!-- End Right -->
-
-  </div>
-    
+  </div>  
   <?php endwhile; ?>  
     <!-- End Postlist -->
 
@@ -32,23 +25,4 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;$this->need('header.php');
   <!-- End Pagination -->
 
 </article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php $this->need('footer.php');?>
