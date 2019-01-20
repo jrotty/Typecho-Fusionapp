@@ -4,7 +4,7 @@
  *
  * @package TypechoFusion
  * @author Jrotty
- * @version 1.0.0
+ * @version 1.1.1
  * @link https://qqdie.com/archives/typechofusionapp-plugin.html
  */
 class TypechoFusion_Plugin implements Typecho_Plugin_Interface
@@ -43,9 +43,9 @@ class TypechoFusion_Plugin implements Typecho_Plugin_Interface
      */
     public static function config(Typecho_Widget_Helper_Form $form)
     {
-		$header = new Typecho_Widget_Helper_Form_Element_Textarea('header', NULL, '', '头部代码', '附加WAP页面头部代码');
+		$header = new Typecho_Widget_Helper_Form_Element_Textarea('header', NULL, '', '头部代码', '附加页面头部代码');
         $form->addInput($header);
-		$footer = new Typecho_Widget_Helper_Form_Element_Textarea('footer', NULL, '', '底部代码', '附加WAP页面底部代码');
+		$footer = new Typecho_Widget_Helper_Form_Element_Textarea('footer', NULL, '', '底部代码', '附加页面底部代码');
         $form->addInput($footer);
 	}
     
@@ -60,7 +60,7 @@ class TypechoFusion_Plugin implements Typecho_Plugin_Interface
 
     
     /**
-     * 设置Wap主题
+     * 设置主题
      * 
      * @access public
      * @param Widget_Archive $widget
