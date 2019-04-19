@@ -68,7 +68,7 @@ class TypechoFusion_Plugin implements Typecho_Plugin_Interface
      */
     public static function location($widget)
     {
-		$acceptHeader = $_SERVER['HTTP_USER_AGENT'];
+		$acceptHeader = @$_SERVER['HTTP_USER_AGENT'];
 		if(strpos($acceptHeader,'fusion') !== false)	{
 			$widget->setThemeDir(__TYPECHO_ROOT_DIR__ . '/' . __TYPECHO_PLUGIN_DIR__ . '/TypechoFusion/themes/');
 		}
